@@ -1,0 +1,37 @@
+Actividad 4.2 Diagrama ER y Relacional - Compañía Aérea..
+
+“Una compañía aérea necesita una base de datos para registrar la
+información de sus vuelos.
+Los vuelos están caracterizados por un Id, la fecha y los aeropuertos
+de origen y destino. Cada vuelo es realizado por un avión.
+Los aviones tienen una matrícula que los identifica, el fabricante, un
+modelo e información sobre su capacidad (número máximo de
+pasajeros) y autonomía de vuelo (en horas).
+La tripulación asignada al vuelo está formada por el personal de la
+propia compañía. De cada trabajador se conoce su id, su nombre,
+sus dos apellidos (el segundo es opcional), el teléfono (puede tener
+más de uno) y su categoría profesional, así como el puesto que
+ocupa en cada vuelo en particular.
+La información de la categoría profesional incluirá un código y un
+nombre.
+Por último, para cada vuelo, se almacena la lista completa de
+pasajeros, con su DNI, el nombre, apellidos, el/los teléfonos de
+contacto, el email, así como el asiento que ocupa y su clase (turista,
+primera o business).”
+
+Actividad 5.4 Diseño de una BBDD de una Compañía Aérea (usar SQL sobre MySQL con terminal de comandos) (copia)
+
+La base de datos tendrá como como “conjunto de caracteres”
+utf8mb4 y utf8mb4_unicode_ci como “colación”.
+Se desea que la información sobre la capacidad del avión sea un
+campo numérico sin signo y con valor máximo de 450
+Se desea que la información sobre la autonomía de vuelo sean
+un campo numérico sin signo, con un valor máximo de 48 horas.
+Además, se desea el campo autonomía de vuelo que sea opcional.
+De los trabajadores se desea conocer los apellidos, siendo el segundo
+de ellos opcional.
+Del tipo de la clase del asiento que ocupa el pasajero (turista, primera
+o business), se quiere almacenar información del identificador del
+Tipo; este identificador será un campo numérico autoincremental.
+Se cambiará el nombre de la tabla asociada a la entidad AVION al
+nombre T_AEROPLANO.
