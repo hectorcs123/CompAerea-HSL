@@ -34,4 +34,4 @@ Del tipo de la clase del asiento que ocupa el pasajero (turista, primera
 o business), se quiere almacenar información del identificador del
 Tipo; este identificador será un campo numérico autoincremental.
 Se cambiará el nombre de la tabla asociada a la entidad AVION al
-nombre T_AEROPLANO.
+nombre T_AEROPLANO...-..-.-
